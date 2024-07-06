@@ -11,7 +11,7 @@ h1 {
 }
 
 .item {
-    width: 30%;
+    width: 32%;
     height: 100%;
     text-align: center;
     margin:auto;
@@ -19,7 +19,7 @@ h1 {
 }
 
 .header {
-    
+    font-size: 20px;
 }
 
 .components {
@@ -30,9 +30,13 @@ h1 {
 .projectButton {
     display:block;
     width:50%;
-    height:40px;
     margin-left:20px;
     margin-top: 10px;
+}
+
+.projectDescription {
+    font-style: italic;
+    font-weight: 300;
 }
 
 #projects {
