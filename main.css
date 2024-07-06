@@ -16,22 +16,15 @@ h1 {
     text-align: center;
     margin:auto;
     border: 1px solid;
+    display:block;
 }
 
 .header {
     font-size: 20px;
 }
 
-.components {
-    float: left;
-    margin: 20px;
-}
-
 .projectButton {
-    display:block;
-    width:50%;
-    margin-left:20px;
-    margin-top: 10px;
+    width:200px;
 }
 
 .projectDescription {
@@ -40,5 +33,20 @@ h1 {
 }
 
 #projects {
-    width:100%;
+    float: left;
+    display:inline;
+    margin-left: 30px;
+}
+
+.money {
+    float: left;
+}
+
+#moneyDisplay {
+    margin-left: 5px;
+    float: left;
+}
+
+.stats {
+    margin: 20px;
 }
