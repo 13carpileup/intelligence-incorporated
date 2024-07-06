@@ -1,0 +1,40 @@
+h1 {
+    margin: 20px;
+}
+
+.main_screen {
+    margin: 10px;
+    height: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.item {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin:auto;
+    border: 1px solid;
+}
+
+.header {
+    
+}
+
+.components {
+    float: left;
+    margin: 20px;
+}
+
+.projectButton {
+    display:block;
+    width:50%;
+    height:40px;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+#projects {
+    width:100%;
+}
