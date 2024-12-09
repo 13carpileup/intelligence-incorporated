@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
 
     <h1>Intelligence Incorporated</h1>
@@ -16,6 +17,10 @@
 
         <div class = "item" id = "competition">
             <p class = "header"><b>Competition</b></p>
+            <div id = "competitors"></div>
+            <div class="chart-container">
+                <canvas id="companyPieChart"></canvas>
+            </div>
         </div>
 
         <div class = "item" id = "government">

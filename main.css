@@ -52,5 +52,11 @@ h1 {
     display: block; /* Ensures it takes up its own line */
     margin-left: 30px; /* Keeps the left margin for styling */
     clear: both; /* Forces this element to appear on a new line */
-    float: left;
+    float: left;    
+}
+
+.chart-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
 }
